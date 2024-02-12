@@ -1,0 +1,112 @@
+.patient-dashboard-top > div {
+  width: 100%;
+}
+.card {
+  border: 1px solid #f0f0f0;
+  margin-bottom: 1.875rem;
+}
+.card-body {
+  padding: 1rem;
+}
+.card-body h5 {
+  font-size: 1rem;
+  color: #272b41;
+  font-weight: 500;
+}
+.patient-dashboard-top h6 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.patient-dashboard-top h6 sub {
+  font-size: 12px;
+}
+.card .card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 1rem 1.5rem;
+  margin-bottom: 0;
+}
+.card-header:first-child {
+  border-radius: 1px 1px;
+}
+.card .card-header .card-title {
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #273b41;
+  font-weight: 700;
+}
+.patient-graph-col .graph-box {
+  display: inline-block;
+  padding: 30px 0;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.graph-box:first-child {
+  background-color: #7289de !important;
+  border-bottom: 8px solid #6a5dee !important;
+}
+
+.patient-graph-col .graph-box > div {
+  width: 100%;
+}
+.patient-graph-col .graph-box h4 {
+  color: #fff;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+}
+.patient-graph-col .graph-box .graph-img {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.patient-graph-col .graph-box .graph-status-result {
+  align-items: flex-end;
+  display: inline-block;
+}
+.patient-graph-col .graph-box .graph-status-result .graph-update-date {
+  display: inline-block;
+  color: #ffff;
+  font-weight: 500;
+  opacity: 0.7;
+  text-align: center;
+  width: 100%;
+}
+.table th {
+  font-weight: bold;
+}
+.table tr td {
+  font-size: 15px;
+}
+.confirm {
+  font-size: 13px;
+  background-color: #e2f6ed;
+  color: #26af48;
+  padding: 1px;
+  display: block;
+  width: 80px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.btn {
+  width: 30%;
+  font-size: 14px;
+  margin: 0 10px;
+  border-radius: 0%;
+  border: none;
+}
+.btn-primary {
+  background-color: #e2f2fe;
+  color: #2196f3;
+}
+.btn-success {
+  background-color: #e0f6f6;
+  color: #1db9aa;
+}

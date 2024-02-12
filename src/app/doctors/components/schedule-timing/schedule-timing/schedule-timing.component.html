@@ -1,0 +1,65 @@
+<div class="row">
+  <div class="col-sm-12">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Schedule Timing</h4>
+        <div class="profile-box">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="time-section">
+                    <div class="time-add">
+                      <div class="title-add" (click)="addTime()">
+                        <a>
+                          <i class="fa fa-plus-circle"></i>
+                          Add Time</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card schedule-widget mb-0">
+                    <ng-container
+                      *ngIf="(asyncTabs | async) === null; else loadingTabs"
+                    >
+                      Loading tabs...
+                    </ng-container>
+
+                    <ng-template #loadingTabs>
+                      <mat-tab-group>
+                        <mat-tab *ngFor="let tab of asyncTabs | async">
+                          <ng-template mat-tab-label>{{
+                            tab.label
+                          }}</ng-template>
+                          <ng-container *ngIf="tab.content === 'Content 1'">
+                            <div class="row">
+                              <div class="doc-time">
+                                <div class="doc-slot-list">
+                                  {{ schedileTime[0].satuday }}
+
+                                  <a class="delete-time">
+                                    <i class="fa fa-times"></i>
+                                  </a>
+                                </div>
+                                <div class="editing-btn" (click)="editTime()">
+                                  <a>
+                                    <i class="fa fa-edit me-1"></i>
+                                    Edit
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </ng-container>
+                        </mat-tab>
+                      </mat-tab-group>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

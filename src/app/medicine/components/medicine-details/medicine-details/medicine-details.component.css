@@ -1,0 +1,226 @@
+.breadcrumb-bar-two {
+  background: #f2f6f6;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  min-height: 300px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.breadcrumb-bar-two .inner-banner {
+  margin: 0;
+  padding: 70px 0;
+}
+.breadcrumb-bar-two .inner-banner .breadcrumb-title {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 6px;
+}
+.breadcrumb-bar-two .inner-banner span a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4b5563;
+  font-size: 15px;
+}
+.content {
+  transform: none;
+  min-height: 148.24px;
+  padding: 80px 0 60px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  border: 1px solid #f0f0f0;
+  margin-bottom: 1.875rem;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.5rem;
+}
+.tab-pane {
+  display: block;
+}
+.product-details .doctor-img {
+  width: 40%;
+}
+.doctor-img {
+  margin-right: 20px;
+}
+.product-details .doc-info-cont {
+  width: 60%;
+}
+.doc-info-left {
+  display: flex;
+  justify-content: space-between;
+}
+.doctor-widget .doc-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.feature-product span {
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.feature-product ul li {
+  padding: 3px 0;
+}
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px;
+  opacity: 0.25;
+}
+.widget {
+  margin-bottom: 30px;
+}
+.widget-title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #272b41;
+}
+.experience-box {
+  position: relative;
+  margin-left: 2rem;
+}
+.experience-list {
+  position: relative;
+  margin-right: 1rem;
+  padding: 0;
+}
+.experience-list li {
+  color: #757575;
+}
+.sidebar {
+  position: relative;
+  overflow: visible;
+  box-sizing: border-box;
+  min-height: 1515.28px;
+}
+
+.stickysidebar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clini-info {
+  margin-bottom: 15px;
+}
+.clini-info h2 {
+  font-size: 30px;
+  color: #272b41;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.clini-info h2 .strike {
+  text-decoration: line-through;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.text-lg b {
+  font-size: 20px;
+  color: #00cc52;
+  padding-left: 10px;
+}
+.badge-primary {
+  border-color: #09e5ab !important;
+}
+.input-group1 {
+  display: flex;
+}
+.custom-increment .input-group1 {
+  width: 100%;
+}
+.custom-increment .btn-danger-1 {
+  border-radius: 4px 0 0 4px;
+  background-color: rgb(220, 220, 220);
+  outline: none;
+  line-height: 30px;
+}
+.custom-increment input[type="text"] {
+  border: 1px solid #dbdbdb;
+  border-radius: 0;
+  text-align: center;
+  width: 70%;
+  padding: 7px 15px;
+}
+.custom-increment .btn-success-1 {
+  border-radius: 0 4px 4px 0;
+  background-color: rgb(220, 220, 220);
+  outline: none;
+  line-height: 30px;
+}
+.clini-details {
+  margin-bottom: 15px;
+}
+.clini-bookng .apt-btn {
+  background-color: #20c0f3;
+  color: #ffffff;
+  text-decoration: none;
+}
+.clini-bookng a {
+  border: 2px solid #20c0f3;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.card > .list-group:last-child {
+  border-bottom-width: 0;
+  border-bottom-right-radius: calc(0.375rem - (1px));
+  border-bottom-left-radius: calc(0.375rem - (1px));
+}
+.list-group-flus > .list-group-item {
+  border-width: 0 0 1px;
+}
+.resize-sensor {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+  visibility: hidden;
+}
+.resize-sensor-expand {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+  visibility: hidden;
+}
+.resize-sensor-shrink {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+  visibility: hidden;
+}
+.list-group-item i {
+  padding: 11px;
+  margin: 0 10px;
+  border: 1px solid #20c0f3;
+  border-radius: 50%;
+  background-color: #20c0f3;
+  color: #fff;
+}

@@ -1,0 +1,34 @@
+<ng-container *ngFor="let item of review">
+  <div class="card">
+    <div class="card-body">
+      <div class="doc-review review-list">
+        <ul class="comment-list">
+          <li>
+            <div class="comment">
+              <img [src]="item.img" class="avatar rounded-circle" alt="" />
+              <div class="comment-body">
+                <div class="meta-data">
+                  <span class="comment-auther">{{ item.name }}</span>
+                  <div class="review-count rating">
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <p class="recommanded">
+                  <i class="far fa-thumbs-up"></i>
+                  {{ item.recoomand }}
+                </p>
+                <p class="comment-content">
+                  {{ item.comment }}
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</ng-container>

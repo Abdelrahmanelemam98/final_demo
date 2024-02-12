@@ -1,0 +1,167 @@
+.content {
+  transform: none;
+  min-height: 127.24px;
+  padding: 80px 0 60px;
+}
+.thestickysidebae {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 1px;
+}
+.inner-stickysidebar {
+  padding-top: 0px;
+  padding-bottom: 1px;
+  position: static;
+  transform: none;
+}
+.card {
+  border: 1px solid #f0f0f0;
+  margin-bottom: 1.875rem;
+}
+.card .card-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #f0f0f0;
+}
+.card-header:first {
+  border-radius: 1px 1px 0 0;
+}
+.card-body {
+  padding: 1.5rem;
+}
+.card {
+  flex: 1 1 auto;
+  /* color: #f1f1f1; */
+}
+.filter-widget {
+  margin-bottom: 20px;
+}
+
+.filter-widget h4 {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+.filter-widget .cutsom_check {
+  line-height: 18px;
+}
+.cutsom_check {
+  color: #666;
+  display: inline-block;
+  position: relative;
+  font-size: 0.9375rem;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.cutsom_check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.cutsom_check input:checked ~ .checkmark {
+  background-color: #ffffff;
+}
+.filter-widget .checkmark {
+  font-size: 17px;
+  color: #333;
+}
+.custom_check input:checked ~ .checkmark:after {
+  display: block;
+}
+.cutsom_check .checkmark::after {
+  content: "\f00c";
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #0de0fe;
+  font-size: 11px;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  display: none;
+}
+.filter-widget input {
+  width: 20px;
+  height: 20px;
+  margin-right: 2rem;
+  margin-top: 2px;
+}
+.btn-search {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #1e5c92;
+}
+.btn-search .btn {
+  background-color: #0de0fe;
+  border: 1px solid #0de0fe;
+  color: #ffffff;
+  height: 46px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.thestickysidebae::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.profile-widget {
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 4px;
+}
+.profile-widget .doc-img {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 4px;
+}
+.profile-widget .doc-img img {
+  border-radius: 4px;
+  width: 100%;
+}
+.profile-widget .pro-content {
+  padding: 15px 0 0;
+}
+.profile-widget .pro-content .title {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.profile-widget .pro-content .title a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+}
+.product-custom .price {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+}
+.product-custom .price-strike {
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #999;
+}
+.product-custom .cart-icon {
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 10px 20px;
+}
+.product-custom .cart-icon i {
+  font-size: 18px;
+  color: #333;
+}
+.book-btn1 {
+  background-color: #0de0fe;
+  border: 2px solid #0de0fe;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  padding: 6px 10px;
+}

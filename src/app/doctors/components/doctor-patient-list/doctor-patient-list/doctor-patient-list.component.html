@@ -1,0 +1,48 @@
+<div class="row">
+  <ng-container *ngFor="let item of patientList">
+    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-12">
+      <div class="card widget-profile pat-widget-profile">
+        <div class="card-body">
+          <div class="pro-widget-content">
+            <div class="profile-info-widget">
+              <a href="" class="booking-doc-img">
+                <img [src]="item.img" alt="" />
+              </a>
+              <div class="profile-det-info">
+                <h3>
+                  <a href="">{{ item.name }}</a>
+                </h3>
+                <div class="patient-details">
+                  <h5>
+                    <b>Patient ID :</b>
+                    {{ item.id }}
+                  </h5>
+                  <h5 class="mb-0">
+                    <i class="fas fa-map-marker-alt"></i>
+                    {{ item.address }}
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="patient-info">
+            <ul>
+              <li>
+                Phone:
+                <span>{{ item.phone }}</span>
+              </li>
+              <li>
+                Age:
+                <span>{{ item.age }} Years, Male</span>
+              </li>
+              <li>
+                Blood:
+                <span>{{ item.blood }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

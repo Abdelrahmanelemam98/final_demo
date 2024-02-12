@@ -1,0 +1,39 @@
+<div class="section section-specialities">
+  <div class="container-fluid">
+    <div class="section-header text-center">
+      <h2>Clinic and Specialties</h2>
+      <p class="sub-title">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos.
+        Minima inventore iusto necessitatibus temporibus excepturi molestiae
+        porro obcaecati culpa ratione sequi ipsa voluptate magnam voluptas
+        labore, ipsam soluta optio?
+      </p>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-9">
+        <div class="specialities-slide">
+          <owl-carousel-o [options]="customOptions">
+            <ng-container *ngFor="let slide of Specialities">
+              <ng-template carouselSlide>
+                <div
+                  class="specialities-item text-center"
+                  style="width: 100%; display: inline-block"
+                >
+                  <div class="specialities-img">
+                    <img
+                      [src]="slide.img"
+                      alt="Speciality Image"
+                      class="img-fluid"
+                    />
+                    <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                  </div>
+                  <p>{{ slide.title }}</p>
+                </div>
+              </ng-template>
+            </ng-container>
+          </owl-carousel-o>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

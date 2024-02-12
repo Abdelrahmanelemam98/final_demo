@@ -1,0 +1,36 @@
+<div class="way-section">
+  <div class="container">
+    <div class="way-bg">
+      <div class="way-shaoes-img">
+        <div class="way-shapes-left">
+          <img src="../../../../../assets/image/about/shape-06.png" alt="" />
+        </div>
+        <div class="way-shapes-right">
+          <img src="../../../../../assets/image/about/shape-07.png" alt="" />
+        </div>
+      </div>
+      <div class="row align-items-end">
+        <ng-container *ngFor="let item of Way">
+          <div class="col-lg-6 col-md-12">
+            <div class="section-inner-header way-inner-header mb-0">
+              <h2>{{ item.title }}</h2>
+              <p>
+                {{ item.content }}
+              </p>
+              <a class="btn btn-primary">Contact With Us</a>
+            </div>
+          </div>
+        </ng-container>
+        <div class="col-lg-6 col-md-12">
+          <div class="way-img">
+            <img
+              src="../../../../../assets/image/about/way-img.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

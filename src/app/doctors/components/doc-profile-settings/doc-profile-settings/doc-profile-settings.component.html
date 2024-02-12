@@ -1,0 +1,379 @@
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Basic Informaiton</h4>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mb-3">
+          <div class="change-avatar">
+            <div class="profile-img">
+              <img
+                src="../../../../../assets/image/Doctors/doctor-01.jpg"
+                alt=""
+              />
+            </div>
+            <div class="upload-img">
+              <div class="change-photo-btn">
+                <span>
+                  <i class="fa fa-upload"></i>
+                  Upload Photo
+                </span>
+                <input type="file" />
+              </div>
+              <small class="form-text text-muted"
+                >Allowed JPG, GIF or PNG. Max size of 2MB</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2"
+            >Username <span class="text-danger">*</span></label
+          >
+          <input type="text" class="form-control" readonly />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2"
+            >Email <span class="text-danger">*</span></label
+          >
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2"
+            >First Name <span class="text-danger">*</span></label
+          >
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2"
+            >Last Name <span class="text-danger">*</span></label
+          >
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2"
+            >Phone Number <span class="text-danger">*</span></label
+          >
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2">Gender</label>
+          <select name="" id="" class="form-control">
+            <option value="">Select</option>
+            <option value="">Male</option>
+            <option value="">Female</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2"
+            >Date of Birth <span class="text-danger">*</span></label
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About section -->
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">About Me</h4>
+    <div class="mb-0">
+      <label for="" class="mb-2">Biography</label>
+      <textarea name="" class="form-control" id="" rows="5"></textarea>
+    </div>
+  </div>
+</div>
+<!-- Clinic Information -->
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Clinic Info</h4>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2"
+            >Clinic Name <span class="text-danger">*</span></label
+          >
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2"
+            >Clinic Address <span class="text-danger">*</span></label
+          >
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="mb-3">
+          <label for="" class="mb-2"
+            >Clinic Image <span class="text-danger">*</span></label
+          >
+          <form action="" class="dropzone dz-clickable dz-started">
+            <div class="dz-default dz-message">
+              <span>Drop Files here to upload</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Detials -->
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Contact Details</h4>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2">Address Line 1</label>
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2">Address Line 2</label>
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2">City</label>
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2">State/Province</label>
+          <input type="" class="form-control" name="" id="" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2">Country</label>
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="" class="mb-2">Postal Code</label>
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Services and specialization -->
+
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Services and Specialization</h4>
+    <div class="mb-3">
+      <label for="" class="mb-2">Services</label>
+      <mat-form-field class="example-chip-list">
+        <mat-chip-grid #chipGrid aria-label="Enter fruits">
+          <mat-chip-row
+            *ngFor="let fruit of services"
+            (removed)="remove(fruit)"
+            [editable]="true"
+            (edited)="edit(fruit, $event)"
+            [aria-description]="'press enter to edit ' + fruit.name"
+          >
+            {{ fruit.name }}
+            <button matChipRemove [attr.aria-label]="'remove ' + fruit.name">
+              <mat-icon>cancel</mat-icon>
+            </button>
+          </mat-chip-row>
+          <input
+            placeholder="New Services..."
+            [matChipInputFor]="chipGrid"
+            [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+            [matChipInputAddOnBlur]="addOnBlur"
+            (matChipInputTokenEnd)="add($event)"
+          />
+        </mat-chip-grid>
+      </mat-form-field>
+    </div>
+  </div>
+</div>
+
+<!-- ==========Education======== -->
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Education</h4>
+    <div class="education-info">
+      <div class="row education-cont">
+        <div class="col-12 col-md-10 col-lg-11">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="mb-3">
+                <label for="" class="mb-2">Degree</label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="mb-3">
+                <label for="" class="mb-2">College/Institute</label>
+                <input type="text" class="form-control" name="" id="" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="mb-3">
+                <label for="" class="mb-2">Year of Completion</label>
+                <input type="text" class="form-control" name="" id="" />
+              </div>
+            </div>
+          </div>
+          <div class="add-more">
+            <a>
+              <i class="fa fa-plus-circle"></i>
+              Add More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- =========Experience -->
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Experience</h4>
+    <div class="experience-info">
+      <div class="row experience-cout">
+        <div class="col-12 col-md-10 col-lg-11">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="mb-3">
+                <label for="" class="mb-2">Hospital Name</label>
+                <input type="text" class="form-control" name="" id="" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="mb-3">
+                <label for="" class="mb-2">From</label>
+                <input type="text" class="form-control" name="" id="" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="mb-3">
+                <label for="" class="mb-2">To</label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="mb-3">
+                <label for="" class="mb-2">Designation</label>
+                <input type="text" class="form-control" name="" id="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="add-more">
+          <a class="add-experience">
+            <i class="fa fa-plus-circle"></i>
+            Add More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= Award ========= -->
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Awards</h4>
+    <div class="award-info">
+      <div class="row award-cout">
+        <div class="col-12 col-md-5">
+          <div class="mb-3">
+            <label for="" class="mb-2">Awards</label>
+            <input type="text" class="form-control" name="" id="" />
+          </div>
+        </div>
+        <div class="col-12 col-md-5">
+          <div class="mb-3">
+            <label for="" class="mb-2">Year</label>
+            <input type="text" class="form-control" name="" id="" />
+          </div>
+        </div>
+        <div class="add-more">
+          <a class="add-award">
+            <i class="fa fa-plus-circle"></i>
+            Add More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= Memberships  =========-->
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Memberships</h4>
+    <div class="membership-info">
+      <div class="row membership-cont">
+        <div class="col-12 col-md-10 col-lg-5">
+          <div class="mb-3">
+            <label for="" class="mb-2">Memberships</label>
+            <input type="text" class="form-control" name="" id="" />
+          </div>
+        </div>
+      </div>
+      <div class="add-more">
+        <a class="add-memberships">
+          <i class="fa fa-plus-circle"></i>
+          Add More
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== Registraion -->
+
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Registrations</h4>
+    <div class="registration-info">
+      <div class="row reg-cont">
+        <div class="col-12 col-md-5">
+          <div class="mb-3">
+            <label for="" class="mb-2">Registraions</label>
+            <input type="text" class="form-control" name="" id="" />
+          </div>
+        </div>
+        <div class="col-12 col-md-5">
+          <div class="mb-3">
+            <label for="" class="mb-2">Year</label>
+            <input type="text" class="form-control" name="" id="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="add-more">
+      <a class="add-reg">
+        <i class="fa fa-plus-circle"></i>
+        Add More
+      </a>
+    </div>
+  </div>
+</div>
+<!-- ========== Submit  -->
+<div class="submit-section submit-btn-bottom">
+  <button type="submit" class="btn btn-primary prime-btn">Save Changes</button>
+</div>

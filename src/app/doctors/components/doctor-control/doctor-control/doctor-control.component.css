@@ -1,0 +1,99 @@
+.content {
+  transform: none;
+  min-height: 127.24px;
+  padding: 80px 0 60px;
+}
+.sticky {
+  position: relative;
+  overflow: visible;
+  box-sizing: border-box;
+  min-height: 1px;
+}
+.stickyside {
+  padding-top: 0;
+  padding-bottom: 0;
+  position: static;
+  transform: none;
+  left: 73.6667px;
+  top: 0;
+}
+.profile-sidebar {
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.profile-sidebar .pro-widget-content {
+  border-bottom: 1px solid #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+.widget-profile {
+  background-color: #ffffff;
+}
+.widget-profile .profile-info-widget {
+  display: block !important;
+  text-align: center !important;
+}
+.widget-profile .profile-info-widget .booking-doc-info {
+  display: inline-block;
+  width: auto;
+  background-color: #f7f7f7;
+  margin: 0 0 15px !important;
+  padding: 8px;
+  border-radius: 50%;
+}
+.widget-profile .profile-info-widget .booking-doc-info img {
+  height: 120px !important;
+  width: 120px !important;
+  border-radius: 50% !important;
+  object-fit: cover;
+}
+.peofile-det-info {
+  overflow: hidden;
+}
+.peofile-det-info h3 {
+  font-size: 17px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.peofile-det-info .patient-details h5 {
+  color: #75757575;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.profile-sidebar .dashboard-menu ul {
+  color: #75757575;
+  font-size: 17px;
+  line-height: 17px;
+  list-style: none;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+.profile-sidebar .dashboard-menu > ul > li a {
+  color: #757575;
+  display: block;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+.profile-sidebar .dashboard-menu ul li a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.dashboard-menu > ul li :last-child {
+  border-bottom: 0;
+}
+.profile-sidebar .dashboard-menu ul li a i {
+  font-size: 16px;
+  margin-right: 10px;
+  width: 16px;
+}

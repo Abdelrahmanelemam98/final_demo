@@ -1,0 +1,156 @@
+.card {
+  border: 1px solid #f0f0f0;
+  margin-bottom: 1.875rem;
+}
+.card-body {
+  padding: 1.5rem;
+  flex: 1 1 auto;
+  color: #757575;
+}
+
+.dash-card .dash-widget .dct-border-rht {
+  border-right: 1px solid #f0f0f0;
+}
+.dash-card .dash-widget .circle-bar {
+  margin-right: 15px;
+  padding: 30px;
+  border-radius: 50%;
+}
+.circle-bar1 {
+  border: 6px solid #da3f81;
+}
+.circle-bar2 {
+  border: 6px solid #68dda9;
+}
+.circle-bar3 {
+  border: 6px solid #1b5a90;
+}
+.dash-card .dash-widget .circle-bar div {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+.dash-card .dash-widget .circle-bar img {
+  text-align: center;
+  margin: 0 auto;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.dash-card .dash-widget h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272b41;
+}
+.dash-card .dash-widget h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #272b41;
+}
+.title-appointment {
+  font-size: 18px;
+  color: #272b41;
+  font-weight: 500;
+}
+.table {
+  color: #272b41;
+  max-width: 100%;
+  width: 100%;
+}
+.table thead {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+.table thead tr {
+  font-weight: bold;
+}
+.card-table .card-body .table tr td:first-child {
+  padding-left: 1.5rem;
+}
+
+.table td h2 .table-avatar {
+  font-size: inherit;
+  font-weight: 400;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+.table-avatar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.table td h2 a {
+  color: #272b41;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 18px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.avatar img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+tr td {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.action-control {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 25px;
+}
+.btn-success {
+  color: #2fbfb1;
+  background-color: #e0f6f6;
+  border-color: #e0f6f6;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  vertical-align: middle;
+  letter-spacing: normal;
+  font-weight: 400;
+}
+.btn-primary {
+  background-color: #e2f6ed;
+  border-color: #e2f6ed;
+  color: #2eb24f;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  vertical-align: middle;
+  letter-spacing: normal;
+  font-weight: 400;
+}
+.btn-danger {
+  background-color: #fde2e7;
+  border-color: #fde2e7;
+  color: #e63c3c;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  vertical-align: middle;
+  letter-spacing: normal;
+  font-weight: 400;
+}
+@media only screen and (max-width: 600px) {
+  .hied-screen {
+    display: none;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .hied-screen {
+    display: none;
+  }
+}

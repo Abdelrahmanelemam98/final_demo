@@ -1,0 +1,54 @@
+.why-choose-us {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0 0 55px;
+}
+.section-inner-header {
+  margin-bottom: 40px;
+}
+.section-inner-header h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #1f2937;
+  margin-bottom: 0;
+}
+.why-choose-card {
+  border: 1px solid #f3f4f6;
+  border-radius: 8px;
+  transition: 0.7s;
+}
+.why-choose-card .card-body {
+  margin: 0;
+  padding: 25px;
+}
+.why-choose-icon {
+  padding-bottom: 24px;
+}
+.why-choose-icon span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  color: #ffffff;
+  background: #0e82fd;
+}
+.why-choose-icon span img {
+  transition: 0.7s;
+}
+.why-choose-content h4 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.why-choose-content p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.card:hover {
+  transform: scale(1);
+  box-shadow: 3px 1px 20px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 1px 20px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 1px 20px -1px rgba(0, 0, 0, 0.75);
+}

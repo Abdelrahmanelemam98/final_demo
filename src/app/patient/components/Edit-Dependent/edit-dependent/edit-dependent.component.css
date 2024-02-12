@@ -1,0 +1,57 @@
+.wapper {
+  border: 0;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #333;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+}
+.inner-title {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  border-bottom: 1px solid #dee2eb;
+  border-top-right-radius: 1px;
+  border-top-right-radius: 1px;
+}
+
+.inner-title h2 {
+  font-size: 20px;
+  color: #272b41;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.inner-input {
+  padding: 1.25rem;
+  position: relative;
+  flex: 1 1 auto;
+}
+.control-label {
+  margin-bottom: 5px;
+}
+.form-control {
+  border-color: #dcdcdc;
+  color: #333333;
+  font-size: 15px;
+  min-height: 46px;
+  padding: 11px 15px;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-top: 25px;
+}
+.btn {
+  background-color: #09e5ab;
+  border: 1px solid #09e5ab;
+}

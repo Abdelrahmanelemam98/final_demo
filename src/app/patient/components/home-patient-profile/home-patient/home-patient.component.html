@@ -1,0 +1,201 @@
+<div class="row">
+  <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-dashboard-top">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="mb-3">
+          <img
+            src="../../../../../assets/image/pt-dashboard-01.png"
+            width="55"
+            alt=""
+          />
+        </div>
+        <h5>Heart Rate</h5>
+        12
+        <sub>bpm</sub>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-dashboard-top">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="mb-3">
+          <img
+            src="../../../../../assets/image/pt-dashboard-02.png"
+            width="55"
+            alt=""
+          />
+        </div>
+        <h5>Body Temperature</h5>
+        <h6>18 <sub>C</sub></h6>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-dashboard-top">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="mb-3">
+          <img
+            src="../../../../../assets/image/pt-dashboard-03.png"
+            width="55"
+            alt=""
+          />
+        </div>
+        <h5>Glucose Level</h5>
+        <h6>70-90</h6>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-dashboard-top">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="mb-3">
+          <img
+            src="../../../../../assets/image/pt-dashboard-04.png"
+            width="55"
+            alt=""
+          />
+        </div>
+        <h5>Blood Pressure</h5>
+        <h6>
+          202/90
+          <sub>mg/dl</sub>
+        </h6>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row patient-graph-col">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Graph Status</div>
+      </div>
+      <div class="card-body pt-2 pb-2 mt-1 mb-1">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-graph-box">
+            <mat-dialog-actions>
+              <a class="graph-box" (click)="openDailg()">
+                <div>
+                  <h4>BMI Status</h4>
+                </div>
+                <div class="graph-img">
+                  <img src="../../../../../assets/image/graph-01.png" alt="" />
+                </div>
+                <div class="graph-status-result mt-3">
+                  <span class="graph-update-date">Last Update 6d</span>
+                </div>
+              </a>
+            </mat-dialog-actions>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-graph-box">
+            <a class="graph-box" (click)="openDailg_2()">
+              <div>
+                <h4>Heart Rate Status</h4>
+              </div>
+              <div class="graph-img">
+                <img src="../../../../../assets/image/graph-02.png" alt="" />
+              </div>
+              <div class="graph-status-result mt-3">
+                <span class="graph-update-date">Last Update 2d</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-graph-box">
+            <a class="graph-box" (click)="openDailg_3()">
+              <div>
+                <h4>FBC Status</h4>
+              </div>
+              <div class="graph-img">
+                <img src="../../../../../assets/image/graph-03.png" alt="" />
+              </div>
+              <div class="graph-status-result mt-3">
+                <span class="graph-update-date">Last Update 5d</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-graph-box">
+            <a class="graph-box" (click)="openDailg_4()">
+              <div>
+                <h4>Weight Status</h4>
+              </div>
+              <div class="graph-img">
+                <img src="../../../../../assets/image/graph-04.png" alt="" />
+              </div>
+              <div class="graph-status-result mt-3">
+                <span class="graph-update-date">Last Update 3d</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body pt-0">
+    <ng-container *ngIf="(asyncTabs | async) === null">
+      Loading tabs...
+    </ng-container>
+
+    <mat-tab-group>
+      <mat-tab *ngFor="let tab of asyncTabs | async">
+        <ng-template mat-tab-label>{{ tab.label }}</ng-template>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <ng-container *ngIf="tab.content === 'Content 1'">
+                <tr>
+                  <th scope="col">Doctor</th>
+                  <th scope="col">Appt Date</th>
+                  <th scope="col">Booking Date</th>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Follow Up</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </ng-container>
+              <ng-container *ngIf="tab.content === 'Content 2'">
+                <tr>
+                  <th scope="col">Date</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Created by</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </ng-container>
+            </thead>
+            <tbody>
+              <ng-container *ngIf="tab.content === 'Content 1'">
+                <tr class="">
+                  <td scope="row">Ahmed</td>
+                  <td>01-10-2023</td>
+                  <td>28-09-2023</td>
+                  <td>120</td>
+                  <td>20-9-2023</td>
+                  <td>
+                    <span class="confirm">confirm</span>
+                  </td>
+                </tr>
+              </ng-container>
+              <ng-container *ngIf="tab.content === 'Content 2'">
+                <tr class="">
+                  <td>01-10-2023</td>
+                  <td>Prescripton 1</td>
+                  <td>Dr.Ahmed</td>
+                  <td>
+                    <button class="btn btn-primary">
+                      <i class="fas fa-print"></i>
+                      Print
+                    </button>
+                    <button class="btn btn-success">
+                      <i class="far fa-eye"></i>
+                      View
+                    </button>
+                  </td>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>

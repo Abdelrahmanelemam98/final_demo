@@ -1,0 +1,46 @@
+<div class="doctor-section professional-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-inner-header text-center">
+          <h2>Best Doctors</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <ng-container *ngFor="let item of ProfessionalDoc">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <div class="doctor-profile-widget w-100">
+            <div class="doc-pro-img">
+              <a href="">
+                <div class="doctor-profile-img">
+                  <img [src]="item.img" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="doc-content">
+              <div class="doc-pro-info">
+                <div class="doc-pro-name">
+                  <a href="">{{ item.name }}</a>
+                  <p>{{ item.specialsitie }}</p>
+                </div>
+                <div class="reviews-ratings">
+                  <p>
+                    <span><i class="fas fa-star"></i></span>
+                    (4.5)
+                  </p>
+                </div>
+              </div>
+              <div class="doc-pro-location">
+                <p>
+                  <i class="fa-solid fa-location-dot"></i>
+                  {{ item.location }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>

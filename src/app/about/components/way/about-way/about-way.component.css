@@ -1,0 +1,53 @@
+.way-section {
+  background-color: #ffffff;
+  margin: x 0;
+  padding: 0 0 80px;
+}
+.way-section .way-bg {
+  background: #0e82fd;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.way-section .way-bg .way-shaoes-img {
+  position: relative;
+}
+.way-section .way-bg .way-shaoes-img .way-shapes-left {
+  position: absolute;
+  top: 60px;
+  right: 200px;
+}
+.way-section .way-bg .way-shaoes-img .way-shapes-right {
+  position: absolute;
+  right: 0;
+}
+.way-inner-header {
+  margin: 0;
+  padding: 60px;
+}
+.way-inner-header h2 {
+  color: #ffffff;
+  margin-bottom: 29px;
+  font-weight: 600;
+  font-size: 40px;
+}
+.way-inner-header p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.way-inner-header .btn {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 11px 16px;
+  color: #3b9cf6;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 0 #0e82fd;
+}
+.way-img {
+  position: relative;
+  top: 10px;
+}

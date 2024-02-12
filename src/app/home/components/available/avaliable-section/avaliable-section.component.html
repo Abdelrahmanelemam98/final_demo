@@ -1,0 +1,42 @@
+<div class="section section-feature">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 feature-img">
+        <img
+          src="../../../../../assets/image/feature/feature.png"
+          class="img-fluid"
+          alt=""
+        />
+      </div>
+      <div class="col-md-7">
+        <div class="section-header">
+          <h2 class="mt-2">Avaliable Feature in Our Clinic</h2>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="feature-slide">
+          <owl-carousel-o [options]="customOptions">
+            <ng-container *ngFor="let slide of Feature">
+              <ng-template carouselSlide>
+                <div
+                  class="feature-item text-center"
+                  style="width: 100%; display: inline-block"
+                >
+                  <img
+                    [src]="slide.img"
+                    alt="Speciality Image"
+                    class="img-fluid"
+                  />
+
+                  <p>{{ slide.title }}</p>
+                </div>
+              </ng-template>
+            </ng-container>
+          </owl-carousel-o>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

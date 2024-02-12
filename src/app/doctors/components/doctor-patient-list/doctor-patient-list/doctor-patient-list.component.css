@@ -1,0 +1,104 @@
+* {
+  text-transform: capitalize;
+}
+
+.widget-profile {
+  background-color: #ffffff;
+  border-bottom: 1px solid #f0f0f0;
+}
+.card {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-body {
+  padding: 1.5rem;
+  flex: 1 1 auto;
+  color: #757575;
+}
+.pat-widget-profile .pro-widget-content {
+  padding: 0 0 20px;
+}
+.pro-widget-content {
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+.widget-profile .profile-info-widget {
+  display: block !important;
+  text-align: center !important;
+}
+.widget-profile
+  .pat-widget-profile
+  .widget-profile
+  .profile-info-widget
+  .booking-doc-img {
+  padding: 0;
+}
+.widget-profile .profile-info-widget .booking-doc-img {
+  display: inline-block;
+  width: auto;
+  background-color: #f7f7f7;
+  margin: 0 0 15px !important;
+  border-radius: 50%;
+}
+/* .widget-profile .pat-widget-profile .profile-info-widget .booking-doc-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+} */
+.booking-doc-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.profile-det-info {
+  overflow: hidden;
+}
+
+.profile-det-info h3 {
+  font-size: 17px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.profile-det-info h3 a {
+  text-decoration: none;
+  color: #272b41;
+}
+.profile-det-info .patient-details h5 {
+  color: #757575;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Poppins", sans-serif;
+}
+.patient-info {
+  margin-top: 15px;
+}
+.patient-info ul {
+  list-style: none;
+  font-size: 0.875rem;
+  margin: 0;
+  padding: 0;
+}
+.patient-info ul li {
+  position: relative;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #272b41;
+  text-transform: capitalize;
+  margin: 15px -2.2rem;
+  font-family: "Poppins", sans-serif;
+}
+.patient-info ul li span {
+  float: right;
+  color: #757575;
+  font-weight: 400;
+}

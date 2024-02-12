@@ -1,0 +1,24 @@
+.breadcrumb-bar-two {
+  background: #f2f6f6;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  min-height: 300px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.breadcrumb-bar-two .inner-banner {
+  margin: 0;
+  padding: 70px 0;
+}
+.breadcrumb-bar-two .inner-banner .breadcrumb-title {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 6px;
+}
+.breadcrumb-bar-two .inner-banner span a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4b5563;
+  font-size: 15px;
+}

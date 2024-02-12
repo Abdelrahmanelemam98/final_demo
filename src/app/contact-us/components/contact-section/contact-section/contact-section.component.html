@@ -1,0 +1,114 @@
+<div class="contact-section">
+  <div class="container">
+    <div class="row">
+      <ng-container *ngFor="let item of Contact">
+        <div class="col-lg-5 col-sm-12">
+          <div class="section-inner-header content-inner-header">
+            <h6>Get in touch</h6>
+            <h2>Have Any Question?</h2>
+          </div>
+          <div class="card contact-card">
+            <div class="card-body">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Address</h4>
+                <p>{{ item.Address }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="card contact-card">
+            <div class="card-body">
+              <div class="contact-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Phone Number</h4>
+                <p>{{ item.phone }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="card contact-card">
+            <div class="card-body">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email Address</h4>
+                <p>{{ item.email }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+      <div class="col-lg-7 col-md-12 d-flex">
+        <div class="card contact-form-card w-100">
+          <div class="card-body">
+            <form action="">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label class="mb-2" for="">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter Your Name"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="" class="mb-2">Email Address</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter Email Address"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="" class="mb-2">Phone Nubmer</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter Phone Number"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="" class="mb-2">Services</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter Services"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <label for="" class="mb-2">Message</label>
+                    <textarea
+                      name=""
+                      class="form-control"
+                      placeholder="Enter yout comments"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group-btn mb-0">
+                    <button type="submit" class="btn btn-primary prim-btn">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
